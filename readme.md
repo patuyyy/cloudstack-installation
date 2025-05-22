@@ -307,12 +307,10 @@ CloudStack tidak bisa menggunakan ISO sebagai sumber pembuatan VM sebelum ISO te
 ![image](https://i.imgur.com/8MoyrAq.png)
 - Mengkonfiguraasi Firewall
 ![image](https://i.imgur.com/ANOmn0f.png)
-- Mengakses VM Instance via Console dan Melakukan Tes Konektivitas Jaringan
-![image](https://i.imgur.com/IriplRE.png)
-Disini, kita berhasil masuk ke VM instance, artinya instalasi ISO Ubuntu berjalan sukses. Lalu, kita mencoba melakukan ping ke beberapa alamat IP:
-    - 8.8.8.8 → Google DNS, hasilnya: 100% packet loss, artinya tidak terkoneksi ke internet.
-    - 192.168.107.84 dan 192.168.106.1 → hasilnya Reply received, artinya koneksi antar internal VM dan ke gateway lokal berhasil.
+- Mengakses VM Instance via Console
+![Untitled design (15)](https://github.com/user-attachments/assets/e82da41a-2c1f-4f1d-8207-b0a3bc30e4ca)
 
+Disini, kita berhasil masuk ke VM instance, artinya instalasi ISO Ubuntu berjalan sukses.
 
 
 
