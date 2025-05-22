@@ -10,6 +10,22 @@ Kelompok 17:
 [toc]
 
 ---
+## Pengantar
+
+### Apa itu Cloudstack?
+Apache CloudStack adalah sebuah platform open-source untuk penyediaan layanan cloud computing berbasis *Infrastructure as a Service* (IaaS). CloudStack memungkinkan organisasi atau penyedia layanan untuk membangun dan mengelola infrastruktur cloud mereka sendiri, mirip dengan layanan yang ditawarkan oleh penyedia cloud publik seperti Amazon Web Services (AWS), Microsoft Azure, atau Google Cloud. Platform ini dirancang untuk menyederhanakan penyediaan dan pengelolaan sumber daya komputasi seperti mesin virtual, penyimpanan, dan jaringan secara otomatis.
+
+CloudStack mendukung berbagai hypervisor populer seperti KVM, VMware, dan XenServer, serta menyediakan antarmuka pengguna berbasis web, command-line interface (CLI), dan RESTful API. Selain itu, CloudStack juga menawarkan fitur-fitur canggih seperti multi-tenant isolation, manajemen IP publik dan privat, virtual router, elastic load balancing, hingga manajemen pengguna dan kuota. Dengan kemampuannya tersebut, CloudStack sangat cocok digunakan dalam implementasi private cloud maupun hybrid cloud.
+
+## Installasi dan Konfigurasi Cloudstack
+### Spesifikasi Hardware
+Spesifikasi yang digunakan untuk instalasi Apache CloudStack ini adalah sebagai berikut:
+- **CPU**: Intel Core i5 Generasi ke-8  
+- **RAM**: 24 GB  
+- **Storage**: 256 GB SSD/HDD  
+- **Network**: Ethernet 100 Gb/s  
+- **Operating System**: Ubuntu Server 22.04 LTS
+
 ## Installasi dan Konfigurasi Cloudstack
 ### Konfigurasi IP Statis dan Bridge Network di`(/etc/netplan)`
 Pada tahap ini, dilakukan konfigurasi jaringan agar server memiliki IP statis dan menggunakan bridge network `(cloudbr0)` yang dibutuhkan oleh CloudStack untuk komunikasi antar VM dan manajemen. Proses dilakukan menggunakan tool bawaan Ubuntu, yaitu Netplan.
