@@ -315,6 +315,8 @@ CloudStack tidak bisa menggunakan ISO sebagai sumber pembuatan VM sebelum ISO te
 Disini, kita berhasil masuk ke VM instance artinya instalasi ISO Ubuntu berjalan sukses.
 
 
+Note : dikarenakan perubahan jaringan dari digilab ke rumah ihsan, jadi terdapat beberapa pengaturan network yang berubah pak. Tapi kami sudah perbaiki agar cloudnya bisa tetap berjalan
+
 
 
 
