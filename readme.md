@@ -307,10 +307,12 @@ CloudStack tidak bisa menggunakan ISO sebagai sumber pembuatan VM sebelum ISO te
 ![image](https://i.imgur.com/8MoyrAq.png)
 - Mengkonfiguraasi Firewall
 ![image](https://i.imgur.com/ANOmn0f.png)
-- Mengakses VM Instance via Console
+- Setting tailscale agar VM bisa diakses dari mana saja.
+![image](https://github.com/user-attachments/assets/dd60c724-a33c-468e-8b1f-4d89ccaf73fd)
+- Mengakses VM Instance via Console (bisa diakses darimana saja asal connect ke tailscale)
 ![Untitled design (15)](https://github.com/user-attachments/assets/e82da41a-2c1f-4f1d-8207-b0a3bc30e4ca)
 
-Disini, kita berhasil masuk ke VM instance, artinya instalasi ISO Ubuntu berjalan sukses.
+Disini, kita berhasil masuk ke VM instance artinya instalasi ISO Ubuntu berjalan sukses.
 
 
 
