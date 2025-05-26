@@ -1,5 +1,7 @@
 # Installation and Configuration: Apache Cloudstack Private Cloud
 
+![image](https://github.com/user-attachments/assets/5d6cfe7b-c0ac-4fb6-b81b-37253929b543)
+
 ## Contributors
 Kelompok 17:
 - Raihan Muhammad Ihsan
